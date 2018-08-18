@@ -1,17 +1,17 @@
 # FriendFinder
 
-Created during Week 13 of Rutgers Coding Bootcamp. The goal was to create a Friend Finder app (essentially a dating app but for friends) using Node and Express servers. The user enters the page that leads to a survey. When the user submits the survey, they are matched with a "friend" that has the closest match to their personality.
+The goal was to create a Friend Finder app (essentially a dating app but for friends) using Node and Express servers. The user enters the page that leads to a survey. When the user submits the survey, they are matched with a "friend" that has the closest match to their personality.
 
 ## Getting Started
 <!-- http://protected-coast-16615.herokuapp.com/ -->
 
 ## Screen Shots
 
-<!-- ![Screen shot](app/public/images/SS1.png)
+![Screen shot](https://user-images.githubusercontent.com/35125977/44303344-75afac80-a2f3-11e8-8eee-5aaaa484a512.JPG)
 Index Page
 
-![Screen shot 2](app/public/images/SS2.png)
-Survey -->
+![Screen shot 2](https://user-images.githubusercontent.com/35125977/44303350-97a92f00-a2f3-11e8-8053-8b2ae5c93a4c.JPG)
+Survey
 
 ## Technologies used
 - Node.js
@@ -23,7 +23,6 @@ Survey -->
 
 ```
 - Node.js - Download the latest version of Node https://nodejs.org/en/
-- Materialize - Add CDN link to HTML http://materializecss.com/getting-started.html
 ```
 
 ## Built With

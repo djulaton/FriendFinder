@@ -1,6 +1,7 @@
 var friendsArr = [{
     "name": "Peter Griffin",
     "photo": "https://cdn3.whatculture.com/images/2013/09/peter-griffin.jpg",
+    "description": "Test blah blah",
     "scores": [
       1,
       1,

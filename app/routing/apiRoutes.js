@@ -13,10 +13,14 @@ module.exports = function(app){
     var newFriendScores = req.body.scores.map(function(score){
       return parseInt(score);
     });
-    
+
     var scoresArray = [];
     // var friendCount = 0;
     var bestMatch = 0;
+    
+    // grab body and replace scores part of the body with the ones parsed
+    var newFriend = req.body
+    newFriend.scores = newFriendScores
 
     //runs through all current friends in list
     for(var i=0; i<friendList.length; i++){
@@ -42,6 +46,6 @@ module.exports = function(app){
     res.json(bff);
 
     //pushes new submission into the friendsList array
-    friendList.push(req.body);
+    friendList.push(newFriend);
   });
 };
